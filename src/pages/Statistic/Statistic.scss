@@ -1,0 +1,25 @@
+#count{
+    font-size: 70px;
+    color: #ff416d89;
+}
+.stack-animation{
+    opacity: 0;
+    animation: showStack 4s forwards, showStackBottom 2s forwards;
+  }
+
+  @keyframes showStack {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes showStackBottom {
+    0% {
+        transform: translateY(50%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+  }
