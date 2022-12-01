@@ -216,7 +216,7 @@ const About = () => {
           puzzles.{" "}
         </p>
       </div>
-<a href = 'https://github.com/BlackManFromAfrica'><GitHubIcon className="ml-10 animate__animated animate__pulse" /><a/>
+<a href="https://github.com/BlackManFromAfrica"> <GitHubIcon className="ml-10 animate__animated animate__pulse animate__infinite" /></a>
     </div>
 
   );
