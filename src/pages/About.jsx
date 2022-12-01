@@ -1,4 +1,5 @@
 import React from "react";
+import GitHubIcon from "@mui/icons-material/GitHub";
 
 const About = () => {
   return (
@@ -215,7 +216,9 @@ const About = () => {
           puzzles.{" "}
         </p>
       </div>
+<a href = 'https://github.com/BlackManFromAfrica'><GitHubIcon className="ml-10 animate__animated animate__pulse" /><a/>
     </div>
+
   );
 };
 export default About;
